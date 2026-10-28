@@ -1,6 +1,6 @@
-// Vercel serverless function: emails contact-form messages to Freedauce via Gmail.
+// Vercel serverless function: emails contact-form messages to Yann via Gmail.
 // Secrets live in Vercel → Project → Settings → Environment Variables (never in this file):
-//   GMAIL_USER          the Gmail address that sends and receives (theophilentiganzwa@gmail.com)
+//   GMAIL_USER          the Gmail address that sends and receives (ntagwabiray@gmail.com)
 //   GMAIL_APP_PASSWORD  the 16-character Google app password
 const nodemailer = require('nodemailer');
 
@@ -39,7 +39,7 @@ module.exports = async (req, res) => {
       to: user,
       replyTo: `"${name.replace(/"/g, '')}" <${email}>`,
       subject: `Portfolio message from ${name}`,
-      text: `${message}\n\n—\nFrom: ${name} <${email}>\nSent via freedauce.vercel.app`,
+      text: `${message}\n\n—\nFrom: ${name} <${email}>\nSent via Yann.vercel.app`,
     });
     return res.status(200).json({ ok: true });
   } catch (err) {

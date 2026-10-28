@@ -1,7 +1,7 @@
 {
-  "name": "freedauce-portfolio",
+  "name": "Yann-portfolio",
   "private": true,
-  "description": "Freedauce portfolio: static site plus a contact-form email function",
+  "description": "Yann portfolio: static site plus a contact-form email function",
   "engines": { "node": ">=18" },
   "dependencies": {
     "nodemailer": "6.9.16"
