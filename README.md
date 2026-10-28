@@ -8,7 +8,7 @@ A 3D clone turns 360° as you scroll while the résumé types itself in, followe
 
 ```
 index.html        the whole site (HTML, CSS and JS in one file)
-frames/           120 WebP frames of the 360° turn (000–119)
+frames/           120 jpg frames of the 360° turn (000–119)
 clone.mp4         clone reel (muted, loops when visible)
 clone-poster.jpg  reel poster frame
 vercel.json       caching and security headers
@@ -29,4 +29,4 @@ npx serve .
 
 Opening `index.html` directly from disk also works.
 
-i changed 000.webp to 000.jpg and i renamed the frame folder to framess instead of frames for now to be changed later once i've done my 360 clone.
+i changed 000.jpg to 000.jpg and i renamed the frame folder to framess instead of frames for now to be changed later once i've done my 360 clone.
