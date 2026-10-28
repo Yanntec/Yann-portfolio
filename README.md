@@ -1,6 +1,6 @@
-# Freedauce — portfolio
+# Yann — portfolio
 
-Personal portfolio of Freedauce, software engineer and IT systems specialist in Kigali, Rwanda.
+Personal portfolio of Yann, software engineer and IT systems specialist in Kigali, Rwanda.
 
 A 3D clone turns 360° as you scroll while the résumé types itself in, followed by a clone reel, skills, projects and contact.
 
