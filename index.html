@@ -8,12 +8,12 @@
 <meta name="description" content="YANN: software Developer and IT specialist in Hamburg, Germany.">
 <meta property="og:title" content="YANN">
 <meta property="og:description" content="Software Developer and IT specialist in Hamburg, Germany.">
-<!--<meta property="og:image" content="frames/000.jpg">-->
+<!--<meta property="og:image" content="frames/000.webp">-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Archivo:wdth,wght@100..125,400..800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="preload" as="image" href="frames/000.jpg?v=warm2" media="(min-width:820px)">
-<link rel="preload" as="image" href="frames-sm/000.jpg?v=warm2" media="(max-width:819px)">
+<link rel="preload" as="image" href="frames/000.webp?v=warm2" media="(min-width:820px)">
+<link rel="preload" as="image" href="frames-sm/000.webp?v=warm2" media="(max-width:819px)">
 <style>
 /* Layout: an orange-over-milk split stage (like a colour card) where the head turns 360° across the split while the résumé types itself in the milk half;
    then a milk clone reel, milk skills index, an orange vertical works list that types itself in, and a milk contact. */
@@ -200,7 +200,7 @@ footer{display:flex;justify-content:space-between;align-items:center;gap:16px;fl
       <span class="count pill" id="count">01 / 05</span>
 
       <div class="intro">
-        <p data-type>Software Developer &amp; IT specialist. I keep networks up, and i build everything.</p>
+        <p data-type>Software Developer &amp; IT specialist. I keep networks up, and i build Softwares.</p>
         <span class="pill">SCROLL ➜ turn me around</span>
       </div>
       <span class="deg pill" id="deg">000°</span>
@@ -209,7 +209,7 @@ footer{display:flex;justify-content:space-between;align-items:center;gap:16px;fl
       <article class="entry r"><span class="when pill">2024 – 2027 Ausbildung</span><h2>Tabtool GmbH</h2><p class="role">Academic Intern</p><p class="note" data-type>Debugging, documentation, version control and deployments with the team.</p></article>
       <article class="entry l"><span class="when pill">2019</span><h2>Cogebank Rwanda</h2><p class="role">IT Support Specialist (Project Contract)</p><p class="note" data-type>Successfully audited, classified, and reactivated dormant client accounts through direct technical outreach.</p></article>
       <article class="entry r"><span class="when pill">Feb 2024 – July 2024</span><h2>TabTool GmbH</h2><p class="role">Software developer Intern</p><p class="note" data-type>Built and deployed AI solutions and wired them into existing systems.</p></article>
-      <article class="entry l"><span class="when pill">Now</span><h2>Building my own things</h2><p class="role">Open to IT, systems &amp; software roles</p><p class="note" data-type>Looking for a team that needs secure, reliable systems.</p></article>
+      <article class="entry l"><span class="when pill">Open </span><h2>Building my own things</h2><p class="role">Open to IT, systems &amp; software roles</p><p class="note" data-type>Looking for a team that needs secure, reliable systems.</p></article>
     </div>
   </section>
 
@@ -217,7 +217,7 @@ footer{display:flex;justify-content:space-between;align-items:center;gap:16px;fl
   <!--<section class="clone" id="clone">
     <div class="clone-grid">
       <figure class="reel">
-        <video id="reel" src=".mp4" poster="poster.jpg" muted loop playsinline preload="none" aria-label="Video of Yann's 3D clone being assembled"></video>
+        <video id="reel" src=".mp4" poster="poster.webp" muted loop playsinline preload="none" aria-label="Video of Yann's 3D clone being assembled"></video>
       </figure>
     </div>
   </section>-->
@@ -357,7 +357,7 @@ footer{display:flex;justify-content:space-between;align-items:center;gap:16px;fl
       if(window.createImageBitmap)createImageBitmap(im).then(done,function(){done(im)});else done(im);
     };
     im.onerror=function(){loaded++;cb&&cb()};
-    im.src=DIR+pad(i,3)+'.jpg?v='+FRAMES_V;
+    im.src=DIR+pad(i,3)+'.webp?v='+FRAMES_V;
   }
   // first frame, then every 8th (rough turn ready fast), then the rest
   load(0,function(){
